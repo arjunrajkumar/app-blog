@@ -1,3 +1,9 @@
+PATH
+  remote: ../blogg
+  specs:
+    blogg (0.1.0)
+      rails (~> 6.0.3, >= 6.0.3.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -198,6 +204,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  blogg!
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
